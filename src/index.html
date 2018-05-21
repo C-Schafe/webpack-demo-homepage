@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="img-ct">
+        <ul class="imgs">
+          <li id="img0">
+            <a href="#"><img src="./img/1.jpg" alt=""></a>
+          </li>
+          <li id="img1">
+            <a href="#"><img src="./img/2.jpg" alt=""></a>
+          </li>
+          <li id="img2">
+            <a href="#"><img src="./img/3.jpg" alt=""></a>
+          </li>
+          <li id="img3">
+            <a href="#"><img src="./img/4.jpg" alt=""></a>
+          </li>
+        </ul>
+      </div>
+      <a href="#" class="playPre playButton">&#xe601;</a>
+      <a href="#" class="playNext playButton">&#xe600;</a>
+      <ul class="bullets">
+        <li class="active"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+    <div class="nav_bar">
+      <a href="#">Start Project</a>
+      <a href="#" id="a-contact">CONTACT</a>
+      <a href="#">TEAM</a>
+      <a href="#">ABOUT</a>
+      <a href="#">PORTFOLIO</a>
+      <a href="#">SERVICES</a>
+    </div>
+    <p class="welcome">Welcome To Our Studio!</p>
+    <p class="greeting">IT'S NICE TO MEET YOU</p>
+    <a href="#services" class="more">TELL ME MORE</a>
+    
+  </header>
+  <div class="content">
+    <div class="services">
+      <section id="services">SERVICES</section>
+      <p class="layout">Lorem ipsum dolor sit amet consectetur.</p>
+      <ul>
+        <li>
+          <span><i class="iconfont">&#xebd6;</i></span>
+          <h4>E-Commerce</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </li>
+        <li id="Responsive_Design">
+          <span><i class="iconfont">&#xe6ba;</i></span>
+          <h4>Responsive Design</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </li>
+        <li>
+          <span><i class="iconfont">&#xe712;</i></span>
+          <h4>Web Security</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        </li>
+      </ul>
+    </div>
+  <div class="portfolio">
+    <section id="portfolio">PORTFOLIO</section>
+    <p class="layout">Lorem ipsum dolor sit amet consectetur.</p>
+    <div class="imgs-container">
+      <div class="img-container"><img data-src="./img/5.jpg" src="./img/5.jpg"></div>
+      <div class="img-container"><img data-src="./img/6.jpg" src="./img/6.jpg"></div>
+      <div class="img-container"><img data-src="./img/7.png" src="./img/7.png"></div>
+      <div class="img-container"><img data-src="./img/8.jpg" src="./img/8.jpg"></div>
+      <div class="img-container"><img data-src="./img/9.jpg" src="./img/9.jpg"></div>
+      <div class="img-container"><img data-src="./img/10.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/11.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/12.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/13.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/14.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/15.jpg" src=""></div>
+      <div class="img-container"><img data-src="./img/16.jpg" src=""></div>
+      <!-- <div id="loadPoint">这是看不见的</div> -->
+    </div>
+    <div class="loadmore">
+        <a href="#" id="loadmore">Load More</a>
+    </div>
+    <!-- <div id="item-first-line">
+    <div class="item1 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/roundicons.png">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Round Icons</p>
+        <p>Graphic Design</p>
+      </div>
+    </div>
+    <div class="item2 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/startup-framework.png" alt="">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Startup Framework</p>
+        <p>Website Design</p>
+      </div>
+    </div>
+    <div class="item3 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/treehouse.png" alt="">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Treehouse</p>
+        <p>Website Design</p>
+      </div>
+    </div>
+    </div>
+    <div>
+    <div class="item4 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/golden.png" alt="">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Golden</p>
+        <p>Website Design</p>
+      </div>
+    </div>
+    <div class="item5 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/escape.png">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Escape</p>
+        <p>Website Design</p>
+      </div>
+    </div> -->
+    <!-- <div class="item6 item">
+      <div class="pic">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/portfolio/dreams.png">
+        <i class="iconfont">&#xe643;</i>
+      </div>
+      <div class="desp">
+        <p>Dreams</p>
+        <p>Website Design</p>
+      </div>
+      </div> -->
+    </div>
+  </div>
+   <div class="timeline">
+    <section id="timeline">ABOUT</section>
+    <p>Lorem ipsum dolor sit amet consectetur.</p>
+    <div class="time1 time">
+        <div class="timeline_img">
+          <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/1.jpg">
+        </div>
+        <div class="summary">
+        <time>2009-2011</time>
+        <h2>Our Humble Beginnings</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+          </div>
+      </div>
+      <div class="time2 time">    <!-- 此处开始添加 -->
+        <div class="timeline_img">
+          <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/2.jpg">
+        </div>
+        <div class="summary">
+        <time>MARCH 2011</time>
+        <h2>An Agency is Born</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+        </div>
+      </div>
+      <div class="time3 time">    <!-- 此处开始添加 -->
+        <div class="timeline_img">
+          <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/3.jpg">
+        </div>
+        <div class="summary">
+        <time>DECEMBER 2012</time>
+        <h2>Transition to Full Service</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+        </div>
+      </div>
+      <div class="time4 time">    <!-- 此处开始添加 -->
+        <div class="timeline_img">
+          <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/about/4.jpg">
+        </div>
+        <div class="summary">
+        <time>JULY 2014</time>
+        <h2>Phase Two Expansion</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+        </div>
+      </div>
+      <div class="time5 time">    <!-- 此处开始添加 -->
+        <div class="timeline_img">
+          <span>BE PART 
+OF OUR 
+            STORY!</span>
+        </div>
+        <div class="summary">
+        <time>2009-2011</time>
+        <h2>Our Humble Beginnings</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+        </div>
+      </div>
+   </div> 
+    <div class="team">
+      <section id="team">OUR AMAZING TEAM</section>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="menber1 menber">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/5.jpg">
+        <h2>Kay Garland</h2>
+        <p>Lead Designer</p>
+        <a href="#" class="iconfont">&#xecb3;</a>
+        <a href="#" class="iconfont">f</a>
+        <a href="#" class="iconfont">in</a>
+      </div>
+      <div class="menber2 menber">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/6.jpg">
+        <h2>Larry Parker</h2>
+        <p>Lead Marketer</p>
+        <a href="#" class="iconfont">&#xecb3;</a>
+        <a href="#" class="iconfont">f</a>
+        <a href="#" class="iconfont">in</a>
+      </div>
+      <div class="menber3 menber">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/team/7.jpg">
+        <h2>Diana Pertersen</h2>
+        <p>Lead Developer</p>
+        <a href="#" class="iconfont">&#xecb3;</a>
+        <a href="#" class="iconfont">f</a>
+        <a href="#" class="iconfont">in</a>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non </p>
+      <p>quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+    </div>
+    <div class="company">
+      <a href="#">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/logos/envato.jpg">
+      </a>
+      <a href="#">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/logos/designmodo.jpg">
+      </a>
+      <a href="#">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/logos/themeforest.jpg">
+      </a>
+      <a href="#">
+        <img src="http://book.jirengu.com/jirengu-inc/jrg-tehui/homework/%E8%8B%A5%E6%84%9A/16/img/logos/creative-market.jpg">
+      </a>
+    </div>
+    <div class="contact">
+      <section id="contact">CONTACT US</section>
+      <p>Lorem ipsum dolor sit amet consectetur.</p>
+      <div class="info_left">
+        <input type="text" placeholder="YOUR NAME*">
+        <input type="text" placeholder="YOUR EMAIL*">
+        <input type="text" placeholder="YOUR PHONE*">
+      </div>
+      <div class="info_right">
+        <textarea name="" id="" cols="30" rows="10" placeholder="YOUR MESSAGE*"></textarea>
+      </div>
+      <div>
+      <button>SEND MESSAGE</button>
+      </div>
+    </div>
+ </div>
+  <footer>
+    <span>Copyright © Your Website 2014</span>
+    <div class="link">
+      <a href="#" class="iconfont">&#xecb3;</a>
+        <a href="#" class="iconfont">f</a>
+        <a href="#" class="iconfont">in</a>
+    </div>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+  </footer>
+
+  
+  <script type="text/javascript">
+    //第一种方式封装
+    // function Carousel($node){
+    //   this.$node = $node
+    //   this.init()
+    //   this.bind()
+    // }
+
+    // Carousel.prototype.init = function(){
+    //   this.$imgs = this.$node.find('.imgs img')
+    //   this.$imgsCt = this.$node.find('.imgs')
+    //   this.imgCount = this.$imgs.length
+    //   this.imgWidth = this.$imgs.width()
+    //   this.pageIndex = 0
+    //   this.isAnimeted = false
+    //   this.$node.find('.imgs').append($('#img0').clone())
+    //   this.$node.find('.imgs').prepend($('#img3').clone())
+    // }
+
+    // Carousel.prototype.bind = function(){
+    //   var _this = this
+    //   this.$node.find('.playNext').on('click',function(){
+    //     if(!_this.isAnimeted){
+    //       _this.playNext()
+    //     }
+    //   })
+    //   this.$node.find('.playPre').on('click',function(){
+    //     if(!_this.isAnimeted){
+    //       _this.playPre()
+    //     }
+    //   })
+    //   this.$node.find('.bullets').on('click','li',function(){
+    //     var $this = $(this)
+    //     var clickIndex = $this.index()
+    //     if(clickIndex > _this.pageIndex){
+    //       _this.$imgsCt.animate({left: '-='+((clickIndex - _this.pageIndex) * _this.imgWidth)})
+    //       _this.pageIndex = clickIndex
+    //       _this.setBullet()
+    //     }else if(clickIndex < _this.pageIndex){
+    //       _this.$imgsCt.animate({left: '+='+((_this.pageIndex - clickIndex) * _this.imgWidth)})
+    //       _this.pageIndex = clickIndex
+    //       _this.setBullet()
+    //     }
+    //   })
+    // }
+
+    // Carousel.prototype.playNext = function(){
+    //   this.isAnimeted = true
+    //   var _this = this
+    //   this.$node.find('.imgs').animate({left: '-='+ _this.imgWidth},function(){
+    //     _this.pageIndex++
+    //     if( _this.pageIndex === _this.imgCount){
+    //       _this.pageIndex = 0
+    //       _this.$node.find('.imgs').css({'left':'-350px'})
+    //     }
+    //     _this.setBullet()
+    //     _this.isAnimeted = false
+    //   })
+    // }
+
+    // Carousel.prototype.playPre = function(){
+    //   var _this = this
+    //   _this.isAnimeted = true
+    //   this.$node.find('.imgs').animate({left: '+='+ _this.imgWidth},function(){
+    //     _this.pageIndex--
+    //     if( _this.pageIndex === -1){
+    //       _this.pageIndex = 3
+    //       _this.$node.find('.imgs').css({'left': -(_this.imgWidth*_this.imgCount)})
+    //     }
+    //     _this.setBullet()
+    //     _this.isAnimeted = false
+    //   })
+    // }
+
+    // Carousel.prototype.setBullet = function(){
+    //   this.$node.find('.bullets li').removeClass('active')
+    //                   .eq(this.pageIndex)
+    //                   .addClass('active')
+    // }
+
+    //var items = new Carousel($('.container').eq(0))
+
+    //第二种封装方法
+
+    // var _Carousel = function(){
+    //   function Carousel($node){
+    //     console.log(1)
+    //     this.$node = $node
+    //     this.init()
+    //     this.bind()
+    //   }
+
+    //   Carousel.prototype.init = function(){
+    //     console.log('init')
+    //     this.$imgs = this.$node.find('.imgs img')
+    //     this.$imgsCt = this.$node.find('.imgs')
+    //     this.imgCount = this.$imgs.length
+    //     this.imgWidth = this.$imgs.width()
+    //     this.pageIndex = 0
+    //     this.isAnimeted = false
+    //     this.$node.find('.imgs').append($('#img0').clone())
+    //     this.$node.find('.imgs').prepend($('#img3').clone())
+    //     $('a').on('click',function(e){
+    //       e.preventDefault()
+    //     })
+    //   }
+
+    //   Carousel.prototype.bind = function(){
+    //     console.log('bind')
+    //     var _this = this
+    //     this.$node.find('.playNext').on('click',function(){
+    //       if(!_this.isAnimeted){
+    //         _this.playNext()
+    //       }
+    //     })
+    //     this.$node.find('.playPre').on('click',function(){
+    //       if(!_this.isAnimeted){
+    //         _this.playPre()
+    //       }
+    //     })
+    //     this.$node.find('.bullets').on('click','li',function(){
+    //       var $this = $(this)
+    //       var clickIndex = $this.index()
+    //       if(clickIndex > _this.pageIndex){
+    //         _this.$imgsCt.animate({left: '-='+((clickIndex - _this.pageIndex) * _this.imgWidth)})
+    //         _this.pageIndex = clickIndex
+    //         _this.setBullet()
+    //       }else if(clickIndex < _this.pageIndex){
+    //         _this.$imgsCt.animate({left: '+='+((_this.pageIndex - clickIndex) * _this.imgWidth)})
+    //         _this.pageIndex = clickIndex
+    //         _this.setBullet()
+    //       }
+    //     })
+    //   }
+
+    //   Carousel.prototype.playNext = function(){
+    //     console.log('next')
+    //     this.isAnimeted = true
+    //     var _this = this
+    //     this.$node.find('.imgs').animate({left: '-='+ _this.imgWidth},function(){
+    //       _this.pageIndex++
+    //       if( _this.pageIndex === _this.imgCount){
+    //         _this.pageIndex = 0
+    //         _this.$node.find('.imgs').css({'left':'0px'})
+    //       }
+    //       _this.setBullet()
+    //       _this.isAnimeted = false
+    //     })
+    //   }
+
+    //   Carousel.prototype.playPre = function(){
+    //     console.log('pre')
+    //     var _this = this
+    //     _this.isAnimeted = true
+    //     this.$node.find('.imgs').animate({left: '+='+ _this.imgWidth},function(){
+    //       _this.pageIndex--
+    //       if( _this.pageIndex === -1){
+    //         _this.pageIndex = 3
+    //         _this.$node.find('.imgs').css({'left': -(_this.imgWidth*_this.imgCount)})
+    //       }
+    //       _this.setBullet()
+    //       _this.isAnimeted = false
+    //     })
+    //   }
+
+    //   Carousel.prototype.setBullet = function(){
+    //     this.$node.find('.bullets li').removeClass('active')
+    //                     .eq(this.pageIndex)
+    //                     .addClass('active')
+    //   }
+
+    //   return {
+    //     launch: function($node){
+    //       $node.each(function(index,element){
+    //         console.log(123)
+    //         new Carousel($(element))
+    //       })
+    //     }
+    //   }
+    // }()
+
+    // _Carousel.launch($('.container')) 
+
+    
+  </script>
+  <script src="../dist/bundle.js"></script>
+</body>
+</html>
